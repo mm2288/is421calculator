@@ -33,6 +33,52 @@ namespace CalculatorProject.Tests
             //Assert
             Assert.AreEqual(_c, 3);
         }
+
+        [TestMethod()]
+        public void DifferenceTest()
+        {
+            //arrange
+            double _a = 4;
+            double _b = 2;
+            double _c;
+
+            //act
+            _c = Addition.Sum(_a, _b);
+
+            //Assert
+            Assert.AreEqual(_c, 2);
+        }
+
+        [TestMethod()]
+        public void ProductTest()
+        {
+            //arrange
+            double _a = 3;
+            double _b = 3;
+            double _c;
+
+            //act
+            _c = Addition.Sum(_a, _b);
+
+            //Assert
+            Assert.AreEqual(_c, 9);
+        }
+
+        [TestMethod()]
+        public void QuotientTest()
+        {
+            //arrange
+            double _a = 24;
+            double _b = 3;
+            double _c;
+
+            //act
+            _c = Addition.Sum(_a, _b);
+
+            //Assert
+            Assert.AreEqual(_c, 8);
+        }
+
         [TestMethod()]
         public void CalculationTest()
         {
