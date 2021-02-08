@@ -43,7 +43,7 @@ namespace CalculatorProject.Tests
             double _c;
 
             //act
-            _c = Addition.Sum(_a, _b);
+            _c = Subtraction.Difference(_a, _b);
 
             //Assert
             Assert.AreEqual(_c, 2);
@@ -58,7 +58,7 @@ namespace CalculatorProject.Tests
             double _c;
 
             //act
-            _c = Addition.Sum(_a, _b);
+            _c = Multiplication.Product(_a, _b);
 
             //Assert
             Assert.AreEqual(_c, 9);
@@ -73,10 +73,10 @@ namespace CalculatorProject.Tests
             double _c;
 
             //act
-            _c = Addition.Sum(_a, _b);
+            _c = Division.Quotient(_a, _b);
 
             //Assert
-            Assert.AreEqual(_c, 8);
+            Assert.AreEqual(_c, );
         }
 
         [TestMethod()]
