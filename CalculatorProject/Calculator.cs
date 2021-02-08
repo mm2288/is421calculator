@@ -22,6 +22,11 @@ namespace CalculatorProject
         {
             Func<double, double, double> _operation;
 
+            //testing
+            //AllOperations _operation = new AllOperations();
+
+
+
             switch (action)
             {
                 case "A":

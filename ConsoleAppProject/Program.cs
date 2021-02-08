@@ -31,9 +31,6 @@ namespace ConsoleAppProject
 
             //Creates a calculation based on input
             _calculator.CreateCalculation(input_1, input_2, choice);
-
-            //Console returns the answer
-            Console.WriteLine()
         }
     }
 }
