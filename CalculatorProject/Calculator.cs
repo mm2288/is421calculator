@@ -16,9 +16,7 @@ namespace CalculatorProject
         public Calculator() { }
         public Calculator(double a, double b, string action)
         {
-
             CreateCalculation(a, b, action);
-
         }
         public void CreateCalculation(double a, double b, string action)
         {
@@ -26,16 +24,16 @@ namespace CalculatorProject
 
             switch (action)
             {
-                case "sum":
+                case "A":
                     _operation = Operations.Sum;
                     break;
-                case "difference":
+                case "S":
                     _operation = Operations.Subtraction;
                     break;
-                case "multiplication":
+                case "M":
                     _operation = Operations.Multiplication;
                     break;
-                case "division":
+                case "D":
                     _operation = Operations.Division;
                     break;
                 default:
