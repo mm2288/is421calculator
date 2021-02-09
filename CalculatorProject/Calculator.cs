@@ -22,11 +22,6 @@ namespace CalculatorProject
         {
             Func<double, double, double> _operation;
 
-            //testing
-            //AllOperations _operation = new AllOperations();
-
-
-
             switch (action)
             {
                 case "A":
@@ -45,14 +40,10 @@ namespace CalculatorProject
                     _operation = Operations.Unassigned;
                     break;
             }
+
             var _calculation = new Calculation(a, b, _operation);
 
             Calculation.Add(_calculation);
-            //Calculation.Subtract(_calculation);
-
-            //Console.WriteLine(_calculation);
-
-            _calculation.GetResult();
 
 
         }
