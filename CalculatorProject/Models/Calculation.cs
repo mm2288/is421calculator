@@ -20,8 +20,9 @@ namespace CalculatorProject.Models
 
         public double GetResult()
         {
-            return Operation(A, B);
-
+            double answer = Operation(A, B);
+            return answer;
+            //return Operation(A, B);
         }
     }
 }

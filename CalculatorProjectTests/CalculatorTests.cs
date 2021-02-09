@@ -76,7 +76,7 @@ namespace CalculatorProject.Tests
             _c = Division.Quotient(_a, _b);
 
             //Assert
-            Assert.AreEqual(_c, );
+            Assert.AreEqual(_c, 8);
         }
 
         [TestMethod()]

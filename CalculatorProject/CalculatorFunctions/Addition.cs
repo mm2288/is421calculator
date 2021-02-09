@@ -10,7 +10,7 @@ namespace CalculatorProject.CalculatorFunctions
         {
             double _c;
             _c = a + b;
-            return _c;      
+            return _c;
         }
     }
 }

@@ -48,6 +48,12 @@ namespace CalculatorProject
             var _calculation = new Calculation(a, b, _operation);
 
             Calculation.Add(_calculation);
+            //Calculation.Subtract(_calculation);
+
+            //Console.WriteLine(_calculation);
+
+            _calculation.GetResult();
+
 
         }
     }
